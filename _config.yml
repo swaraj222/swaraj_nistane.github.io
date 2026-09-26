@@ -1,7 +1,21 @@
 title: Swaraj Nistane
-description: PhD student | Aerial swarm robotics | UGA HeRo Lab
+description: PhD researcher in multi-UAV planning, distributed control, coverage, tracking, and informative path planning at the University of Georgia.
+url: "https://swaraj222.github.io"
+baseurl: "/swaraj_nistane.github.io"
+author:
+  name: Swaraj Nistane
+  email: srn65169@uga.edu
 
 theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og.png
 
 header_pages:
   - about.md
@@ -9,3 +23,8 @@ header_pages:
   - publications.md
   - projects.md
   - contact.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
